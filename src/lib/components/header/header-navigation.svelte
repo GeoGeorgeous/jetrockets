@@ -15,7 +15,7 @@
     <Button
       variant="ghost"
       disabled={!nav.enabled}
-      href={href}
+      {href}
       class={cn(
         'flex items-center gap-2',
         isActive ? 'bg-sleepy font-medium text-primary' : 'text-muted-foreground',
