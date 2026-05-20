@@ -1,5 +1,6 @@
 <script>
   import { Button } from '$components/ui/button/index.js';
+  import { base } from '$app/paths';
   import * as Card from '$components/ui/card/index.js';
   import { Separator } from '$components/ui/separator/index.js';
 </script>
@@ -19,7 +20,7 @@
     </p>
 
     <div class="mt-5 flex gap-2">
-      <Button href="/showcase">Showcase</Button>
+      <Button href={base + '/showcase'}>Showcase</Button>
       <Button href="https://github.com/GeoGeorgeous/template" variant="outline" target="_blank">
         GitHub
       </Button>
