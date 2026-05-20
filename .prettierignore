@@ -1,0 +1,14 @@
+# Package Managers
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lock
+bun.lockb
+
+# Generated
+.svelte-kit/
+
+# JSONC (comments not supported by prettier's JSON parser)
+jsconfig.json
+.vscode/
+.devcontainer/
