@@ -1,6 +1,7 @@
 <script>
   import { page } from '$app/stores';
   import { Button } from '$components/ui/button/index.js';
+  import { base } from '$app/paths';
 </script>
 
 <div class="flex min-h-screen flex-col">
@@ -23,7 +24,7 @@
         </div>
         <div class="flex flex-col items-center gap-0">
           <!-- eslint-disable svelte/no-navigation-without-resolve -->
-          <Button href="/" variant="default" class="mx-auto mt-12">Take me home</Button>
+          <Button href="{base}/" variant="default" class="mx-auto mt-12">Take me home</Button>
           <!-- eslint-enable svelte/no-navigation-without-resolve -->
         </div>
       </main>
